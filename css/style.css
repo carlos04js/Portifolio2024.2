@@ -139,3 +139,11 @@ span {
 .btn:hover {
   box-shadow: none;
 }
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background:var(--second-bg-color);
+}
