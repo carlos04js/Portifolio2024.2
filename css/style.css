@@ -28,10 +28,9 @@ body {
   color: var(--text-color);
 }
 
-section{
-    min-height: 100vh;
-    padding: 10rem  9% 2rem;
-
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
 }
 
 .header {
@@ -58,7 +57,7 @@ section{
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .navbar a:hover,
@@ -72,8 +71,23 @@ section{
   display: none;
 }
 
-.home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img img {
+  width: 35vw;
+}
+
+.home-content h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.home-content h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.3;
 }
