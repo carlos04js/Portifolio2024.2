@@ -1,0 +1,50 @@
+/*Página do Obrigado*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1f242d;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 2.813rem;
+    color: #f5f5f5;
+    margin-bottom: 1.875rem;
+}
+
+.paragrafo {
+    color: #f5f5f5;
+    margin-bottom: 3.125rem;
+}
+
+.botao {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #0ef;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #0ef;
+    font-size: 1.6rem;
+    color: #323946;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.btn:hover {
+    border-radius:none;
+}
